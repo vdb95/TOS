@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Правда или песня</string>
+    <string name="name">Truth or song</string>
+    <string name="start_game">Играть</string>
+    <string name="rules">rules</string>
+    <string name="settinngs">settings</string>
+</resources>

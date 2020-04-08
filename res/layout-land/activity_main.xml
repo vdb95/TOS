@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        tools:text="Truth or song" />
+
+    <ImageButton
+        android:id="@+id/start_game"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/start_game"
+        app:srcCompat="@drawable/play" />
+
+    <ImageButton
+        android:id="@+id/rules"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/rules"
+        app:srcCompat="@drawable/rules" />
+
+    <ImageButton
+        android:id="@+id/settings"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/settinngs"
+        app:srcCompat="@drawable/settings" />
+
+</LinearLayout>
